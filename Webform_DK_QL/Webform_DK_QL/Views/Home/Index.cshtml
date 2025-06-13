@@ -3,10 +3,10 @@
 }
 
 <div class="container mt-5">
-    <div class="card shadow-sm text-center" style="background-color: #f8f9fa;">
+    <div class="card shadow-sm text-center" style="background: linear-gradient(135deg, #e6f3ff 0%, #ffffff 70%);">
         <div class="card-body py-5">
-            <h1 class="card-title mb-4" style="color: #2c3e50; font-size: clamp(2rem, 6vw, 3.5rem);">Chào mừng đến với UserManagementApp</h1>
-            <p class="card-text lead mb-4" style="color: #34495e;">
+            <h1 class="card-title mb-4" style="font-size: clamp(2rem, 6vw, 3.5rem);">Chào mừng đến với UserManagementApp</h1>
+            <p class="card-text lead mb-4">
                 Tìm hiểu về việc xây dựng ứng dụng web với ASP.NET Core. Quản lý người dùng của bạn một cách dễ dàng và hiệu quả!
             </p>
             <a asp-controller="Users" asp-action="Index" class="btn btn-primary btn-lg rounded-pill px-4 py-2" style="min-width: 200px;">Xem danh sách người dùng</a>
@@ -15,20 +15,32 @@
 
     <div class="row mt-5">
         <div class="col-12 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
+            <div class="card h-100 shadow-sm" style="border-left: 5px solid #ff8c00;">
+                <img src="~/images/add_remove.jpg" class="card-img-top transition-img" alt="Office Environment" style="object-fit: cover; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #2c3e50;">Quản lý người dùng</h5>
-                    <p class="card-text">Thêm, chỉnh sửa hoặc xóa người dùng một cách nhanh chóng với giao diện thân thiện.</p>
+                    <h5 class="card-title">Chức năng Đơn giản, thông minh</h5>
+                    <p class="card-text">Thêm, chỉnh sửa hoặc xóa người dùng một cách nhanh chóng với giao diện thân thiện..</p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
+            <div class="card h-100 shadow-sm" style="border-left: 5px solid #ffd700;">
+                <img src="~/images/friendly.jpg" class="card-img-top transition-img" alt="Birthday Cake" style="object-fit: cover; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #2c3e50;">Dễ dàng sử dụng</h5>
+                    <h5 class="card-title">Thiết Kế Responsive</h5>
                     <p class="card-text">Thiết kế đáp ứng, hoạt động mượt mà trên mọi thiết bị, từ điện thoại đến máy tính.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+    .transition-img {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .transition-img:hover {
+        transform: scale(1.05); /* Phóng to 5% khi hover */
+        opacity: 0.9; /* Làm mờ nhẹ khi hover */
+    }
+</style>

@@ -13,28 +13,35 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            margin-bottom: 60px; /* Add space at the bottom to push footer lower */
+            margin-bottom: 60px;
         }
         main {
             flex: 1 0 auto;
         }
         footer {
             flex-shrink: 0;
-            margin-top: auto; /* Pushes footer to the bottom */
+            margin-top: auto;
         }
         .navbar-dark .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         }
         .navbar-dark .navbar-toggler {
-            border-color: rgba(0, 0, 0, 1); /* Match border color to icon */
+            border-color: rgba(0, 0, 0, 1);
+        }
+        .navbar-brand img {
+            height: 40px; /* Adjust height as needed */
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #0d3785, #ededed);">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #0d3785, #e6e5e3);">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #ffffff;">UserManagementApp</a>
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/splus_logo.webp" alt="Splus Software Logo" />
+                    UserManagementApp
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
