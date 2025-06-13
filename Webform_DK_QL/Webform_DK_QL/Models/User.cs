@@ -9,11 +9,11 @@ public class User
 
     [Required(ErrorMessage = "Họ tên là bắt buộc")]
     [StringLength(100)]
-    public string FullName { get; set; }
+    public required string FullName { get; set; }
 
     [Required(ErrorMessage = "Email là bắt buộc")]
     [EmailAddress(ErrorMessage = "Email không hợp lệ")]
-    public string Email { get; set; }
+    public required string Email { get; set; }
 
     [Required(ErrorMessage = "Ngày sinh là bắt buộc")]
     [DataType(DataType.Date)]
@@ -21,6 +21,6 @@ public class User
 
     [Required(ErrorMessage = "Số điện thoại là bắt buộc")]
     [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]
-    public string PhoneNumber { get; set; }
+    public required string PhoneNumber { get; set; }
 }
 
