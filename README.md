@@ -1,5 +1,13 @@
 # Webform_DK_QL
 Bài tập 1 – Xây dựng Web Form Đăng ký & Quản lý người dùng
+<p align="center">
+  <img src="Screenshots/1.jpeg" width="800"/>
+  <br/>
+  <i>Figure:  Web Form Đăng ký & Quản lý người dùng</i>
+</p>
+
+
+More details at: https://github.com/T-K-Nguyen/Webform_DK_QL
 
 ### Features Implemented
 1. **User Registration Form**:
