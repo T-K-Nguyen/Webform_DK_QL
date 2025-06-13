@@ -11,7 +11,7 @@ using Webform_DK_QL.Data;
 namespace Webform_DK_QL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250613105432_InitialCreate")]
+    [Migration("20250613125141_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
