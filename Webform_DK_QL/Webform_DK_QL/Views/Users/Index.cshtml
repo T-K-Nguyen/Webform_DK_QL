@@ -5,21 +5,19 @@
 }
 
 <div class="container mt-4">
-    <h1 class="text-center mb-4" style="color: #2c3e50; font-size: clamp(1.5rem, 5vw, 2.5rem);">Danh sách người dùng</h1>
+    <h1 class="text-center mb-4" style="font-size: clamp(1.5rem, 5vw, 2.5rem);">Danh sách người dùng</h1>
 
-    <!-- Button to add new user with mobile-friendly placement -->
     <div class="d-flex justify-content-end mb-4">
         <a asp-action="Create" class="btn btn-primary btn-lg rounded-pill px-4 py-2" style="min-width: 200px;">Đăng ký người dùng mới</a>
     </div>
 
-    <!-- User List Table -->
     <div class="card shadow-sm">
         <div class="card-body">
             @if (Model.Any())
             {
                 <div class="table-responsive">
-                    <table class="table table-striped table-hover table-bordered">
-                        <thead class="table-dark">
+                    <table class="table table-striped table-hover table-bordered table-custom">
+                        <thead class="table-dark" style="background-color: #28a745; color: #ffffff;">
                             <tr>
                                 <th scope="col" class="text-center p-2">Họ tên</th>
                                 <th scope="col" class="text-center p-2">Email</th>
@@ -50,7 +48,7 @@
             }
             else
             {
-                <div class="alert alert-info text-center p-4" role="alert">
+                <div class="alert alert-success text-center p-4" role="alert" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724;">
                     Không có người dùng nào được đăng ký.
                 </div>
             }
