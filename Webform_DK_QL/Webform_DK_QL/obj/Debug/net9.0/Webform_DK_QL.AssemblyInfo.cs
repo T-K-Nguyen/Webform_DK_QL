@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Webform_DK_QL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d079c361f05e7defe282082ed7d7dd43ef4a5319")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5168907482c750db4bd576220c1de38af3dc6473")]
 [assembly: System.Reflection.AssemblyProductAttribute("Webform_DK_QL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Webform_DK_QL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
