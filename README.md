@@ -6,23 +6,32 @@ Bài tập 1 – Xây dựng Web Form Đăng ký & Quản lý người dùng
    - Fields: FullName, Email, DateOfBirth, PhoneNumber
    - Validation: Required fields, Email format, Phone format
    - Responsive design with Bootstrap 5
-   - Screenshot: [Insert screenshot of Create form]
 
 2. **User List**:
    - Displays all users in a table
    - Columns: FullName, Email, DateOfBirth, PhoneNumber, Actions (Edit/Delete)
    - Responsive table
-   - Screenshot: [Insert screenshot of Index page]
+
 
 3. **Edit User**:
    - Form to update user details
    - Same validations as Create
-   - Screenshot: [Insert screenshot of Edit form]
 
 4. **Delete User**:
    - Confirmation page before deletion
-   - Screenshot: [Insert screenshot of Delete confirmation]
 
+## How to Run Locally
+1. **Prerequisites**:
+   - Install .NET 9 SDK: https://dotnet.microsoft.com/en-us/download/dotnet/9.0
+   - Install EF Core tools: `dotnet tool install --global dotnet-ef`
+
+2. **Steps**:
+   - Apply migrations (already applied): `dotnet ef migrations add InitialCreate` and `dotnet ef database update`
+```bash
+git clone https://github.com/T-K-Nguyen/Webform_DK_QL.git
+cd Webform_DK_QL/Webform_DK_QL/
+dotnet run
+```
 ### Technologies Used
 - **Framework**: .NET 9, ASP.NET Core MVC
 - **Database**: SQLite
@@ -38,33 +47,34 @@ Bài tập 1 – Xây dựng Web Form Đăng ký & Quản lý người dùng
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/1.jpg" width="400"/><br/>
+      <img src="Screenshots/1.jpeg" width="800"/><br/>
       <i>Home Screen</i>
     </td>
     <td align="center">
-      <img src="Screenshots/1-2.jpg" width="200"/><br/>
+      <img src="Screenshots/1-2.jpeg" width="200"/><br/>
       <i>Home Screen (Phone view)</i>
     </td>
     <td align="center">
-      <img src="Screenshots/1-3.jpg" width="200"/><br/>
+      <img src="Screenshots/1-3.jpeg" width="200"/><br/>
       <i>Setting in Phone view</i>
     </td>
   </tr>
 </table>
 
+
 - Index page: Shows user list in a table
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/2.jpg" width="400"/><br/>
+      <img src="Screenshots/2.jpeg" width="800"/><br/>
       <i>List of registered user</i>
     </td>
     <td align="center">
-      <img src="Screenshots/2-2.jpg" width="200"/><br/>
+      <img src="Screenshots/2-2.jpeg" width="200"/><br/>
       <i>List of registered user 1 (Phone view)</i>
     </td>
     <td align="center">
-      <img src="Screenshots/2-3.jpg" width="200"/><br/>
+      <img src="Screenshots/2-3.jpeg" width="200"/><br/>
       <i>List of registered user 2 (Phone view)</i>
     </td>
   </tr>
@@ -75,11 +85,11 @@ Bài tập 1 – Xây dựng Web Form Đăng ký & Quản lý người dùng
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/3.jpg" width="400"/><br/>
+      <img src="Screenshots/3.jpeg" width="800"/><br/>
       <i>Register user</i>
     </td>
     <td align="center">
-      <img src="Screenshots/3-2.jpg" width="200"/><br/>
+      <img src="Screenshots/3-2.jpeg" width="200"/><br/>
       <i>Registered user (Phone view)</i>
     </td>
   </tr>
@@ -90,26 +100,27 @@ Bài tập 1 – Xây dựng Web Form Đăng ký & Quản lý người dùng
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/4.jpg" width="400"/><br/>
+      <img src="Screenshots/4.jpeg" width="800"/><br/>
       <i>Editing user info</i>
     </td>
     <td align="center">
-      <img src="Screenshots/4-2.jpg" width="200"/><br/>
+      <img src="Screenshots/4-2.jpeg" width="200"/><br/>
       <i>Editing user info (Phone view)</i>
     </td>
   </tr>
 </table>
 
 
+
 - Delete page: Shows confirmation dialog
 <table>
   <tr>
     <td align="center">
-      <img src="Screenshots/5.jpg" width="400"/><br/>
+      <img src="Screenshots/5.jpeg" width="800"/><br/>
       <i>Deleting User</i>
     </td>
     <td align="center">
-      <img src="Screenshots/5-2.jpg" width="200"/><br/>
+      <img src="Screenshots/5-2.jpeg" width="200"/><br/>
       <i>Deleting User (Phone view)</i>
     </td>
   </tr>
