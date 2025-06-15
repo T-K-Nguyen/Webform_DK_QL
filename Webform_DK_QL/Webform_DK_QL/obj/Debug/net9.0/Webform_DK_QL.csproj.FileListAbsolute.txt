@@ -125,7 +125,6 @@ C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\S
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\System.Composition.Hosting.dll
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\System.Composition.TypedParts.dll
-C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\System.Text.Json.dll
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -215,3 +214,7 @@ C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\bin\Debug\net9.0\r
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\Webform_DK_QL.csproj.AssemblyReference.cache
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\Webform_.B2BB1F6B.Up2Date
 C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\compressed\ezuugjjia2-it5vuc4vhr.gz
+C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\WORKS\Internship\Webform_DK_QL\Webform_DK_QL\Webform_DK_QL\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
